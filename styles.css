@@ -48,3 +48,17 @@ nav a:hover{color:var(--ink)}
 .article-body ul,.article-body aside{border:1px solid var(--line);box-shadow:none}
 footer{border-top:1px solid var(--line)}
 @media(max-width:680px){.ticker{width:min(100% - 30px,1180px);padding:15px 14px}.ticker span{margin:0 8px}.grid.projects{grid-template-columns:1fr}}
+
+/* Clear, consistent English typography */
+:root{--font-body:"Segoe UI Variable Text","Segoe UI","Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;--font-display:"Segoe UI Variable Display","Segoe UI","Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;--font-ui:"Segoe UI Variable Text","Segoe UI","Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+body{font-family:var(--font-body);text-rendering:optimizeLegibility}
+.brand-mark,.brand small,nav,.github,.eyebrow,.board-top,.core,.lab,.stats small,.ticker,.number,.project-copy small,.tags,.note-list small,.note-card>span,.article header>small,.detail-row>div>b,.detail-row li>b,footer p{font-family:var(--font-ui)}
+.hero h1,.section-head h2,.project-copy h2,.poster strong,.page-intro h1,.note-card h2,.about h2,.connect h2,.detail-hero h1,.article header h1,.article-body h2{font-family:var(--font-display)}
+.eyebrow{font-size:12px;line-height:1.4;letter-spacing:.09em}
+.project-copy small{font-size:12px;line-height:1.5;font-weight:750;letter-spacing:.025em;color:#4f5a53}
+.project-copy p{font-size:15px;line-height:1.75}
+.tags span{padding:7px 10px;font-size:11px;line-height:1.2;font-weight:750}
+.note-list small{font-size:11px;line-height:1.4}
+.poster strong{line-height:1.04;letter-spacing:-.045em}
+.article header>small{font-size:11px;line-height:1.4}
+footer p{font-size:10px;line-height:1.4}
